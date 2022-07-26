@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: mscloudgateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://{KEYCLOACK_SERVER}:${KEYCLOACK_PORT}/realms/mscursorealm
+
+server:
+  port: 8080
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://admin:admin@${EUREKA_SERVER}:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+logging:
+  file:
+    name: ./logs/log-file.log

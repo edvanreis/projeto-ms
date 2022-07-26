@@ -1,0 +1,11 @@
+2022-07-24 14:19:28.755  INFO 18860 --- [main] o.a.AvaliadorCreditoApplicationTests     : Starting AvaliadorCreditoApplicationTests using Java 17.0.3.1 on BRPC015072 with PID 18860 (started by endr in C:\desenv\microservicos\projeto-ms\msavaliadorcredito)
+2022-07-24 14:19:28.756  INFO 18860 --- [main] o.a.AvaliadorCreditoApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2022-07-24 14:19:30.712  INFO 18860 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=81e50f1d-a358-3819-9edf-121b75ecf7f7
+2022-07-24 14:19:31.933  INFO 18860 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclients' URL not provided. Will try picking an instance via load-balancing.
+2022-07-24 14:19:32.083  INFO 18860 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2022-07-24 14:19:36.738  INFO 18860 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-07-24 14:19:36.889  WARN 18860 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-24 14:19:36.922  INFO 18860 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-07-24 14:19:37.047  INFO 18860 --- [main] o.a.AvaliadorCreditoApplicationTests     : Started AvaliadorCreditoApplicationTests in 9.089 seconds (JVM running for 10.268)
+2022-07-24 14:19:38.618  INFO 18860 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-07-24 14:19:38.624  INFO 18860 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN

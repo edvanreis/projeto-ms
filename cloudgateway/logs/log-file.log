@@ -1,0 +1,50 @@
+2022-07-24 14:19:46.365  INFO 20640 --- [main] c.c.c.CloudgatewayApplicationTests       : Starting CloudgatewayApplicationTests using Java 17.0.3.1 on BRPC015072 with PID 20640 (started by endr in C:\desenv\microservicos\projeto-ms\cloudgateway)
+2022-07-24 14:19:46.367  INFO 20640 --- [main] c.c.c.CloudgatewayApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2022-07-24 14:19:47.945  INFO 20640 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2458b4c1-823c-3214-b760-ec3139526363
+2022-07-24 14:19:48.176  INFO 20640 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-24 14:19:48.182  INFO 20640 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-24 14:19:48.189  INFO 20640 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-24 14:19:50.992  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2022-07-24 14:19:50.993  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2022-07-24 14:19:50.994  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2022-07-24 14:19:50.994  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2022-07-24 14:19:50.997  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2022-07-24 14:19:50.998  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2022-07-24 14:19:51.000  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2022-07-24 14:19:51.000  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2022-07-24 14:19:51.000  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2022-07-24 14:19:51.000  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2022-07-24 14:19:51.001  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2022-07-24 14:19:51.001  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2022-07-24 14:19:51.001  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2022-07-24 14:19:51.001  INFO 20640 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-07-24 14:19:52.064  INFO 20640 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-07-24 14:19:52.711  INFO 20640 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-07-24 14:19:52.849  WARN 20640 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-07-24 14:19:52.892  INFO 20640 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-07-24 14:19:53.017  INFO 20640 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-07-24 14:19:53.028  INFO 20640 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-07-24 14:19:53.078  INFO 20640 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-07-24 14:19:53.079  INFO 20640 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-07-24 14:19:53.079  INFO 20640 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-07-24 14:19:53.079  INFO 20640 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-07-24 14:19:53.080  INFO 20640 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-07-24 14:19:53.080  INFO 20640 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-07-24 14:19:53.080  INFO 20640 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-07-24 14:19:53.649  INFO 20640 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-07-24 14:19:53.654  INFO 20640 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-07-24 14:19:53.658  INFO 20640 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-24 14:19:53.666  INFO 20640 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1658683193665 with initial instances count: 6
+2022-07-24 14:19:53.672  INFO 20640 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSCLOUDGATEWAY with eureka with status UP
+2022-07-24 14:19:53.674  INFO 20640 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1658683193673, current=UP, previous=STARTING]
+2022-07-24 14:19:53.676  INFO 20640 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/BRPC015072.mshome.net:mscloudgateway:8080: registering service...
+2022-07-24 14:19:53.871  INFO 20640 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/BRPC015072.mshome.net:mscloudgateway:8080 - registration status: 204
+2022-07-24 14:19:53.909  INFO 20640 --- [main] c.c.c.CloudgatewayApplicationTests       : Started CloudgatewayApplicationTests in 8.403 seconds (JVM running for 9.69)
+2022-07-24 14:19:54.545  INFO 20640 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSCLOUDGATEWAY with eureka with status DOWN
+2022-07-24 14:19:54.545  INFO 20640 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1658683194545, current=DOWN, previous=UP]
+2022-07-24 14:19:54.546  INFO 20640 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/BRPC015072.mshome.net:mscloudgateway:8080: registering service...
+2022-07-24 14:19:54.560  INFO 20640 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/BRPC015072.mshome.net:mscloudgateway:8080 - registration status: 204
+2022-07-24 14:19:54.565  INFO 20640 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-07-24 14:19:57.588  INFO 20640 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-07-24 14:19:57.619  INFO 20640 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSCLOUDGATEWAY/BRPC015072.mshome.net:mscloudgateway:8080 - deregister  status: 200
+2022-07-24 14:19:57.623  INFO 20640 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

@@ -1,0 +1,7 @@
+
+o
+java:S6204Q"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(œçÖß8Ò±®£0
+J
+java:S1481D"-Remove this unused "incomeBD" local variable.(ñ­íà8™Ò±®£0
+e
+java:S2259?"CA "NullPointerException" could be thrown; "cards" is nullable here.(¥‹ñîûÿÿÿÿ8ÑÓ±®£0
